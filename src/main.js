@@ -11,4 +11,3 @@ export function createApp() {
   app.use(router)
   return { app, router }
 }
-
