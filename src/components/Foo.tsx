@@ -5,6 +5,6 @@ export const Foo = defineComponent({
   name: 'foo',
   setup() {
     const count = ref(0)
-    return () => <div class="jsx" onClicK={() => count.value++}>{count.value}</div>
+    return () => <div class="jsx" onClick={() => count.value++}>{`The count is: ${count.value}`}</div>
   }
 })
